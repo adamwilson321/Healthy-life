@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f0ecdd;
+}
+
+.logo {
+    border: none;
+    width: 100;
+   float: left;
+}
+
+.main {
+    width: 500px;
+    height: 500px;
+    border: 1px solid ;
+    border-radius: 10px;
+    position: relative;
+    left: 90;
+    top: 100;
+}
+
+#menu {
+    text-decoration: none;
+    position: relative;
+    left: 200;
+    font-size: 20;
+    display: inline-flex;
+    letter-spacing: 20;
+}
+
+#menu a {
+    text-decoration: none;
+    color: black;
+}
+
+#menu li {
+    list-style-type: none;
+}
+
+.logo #menu {
+    line-height: 80px;
+}
