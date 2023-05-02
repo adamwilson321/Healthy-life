@@ -7,6 +7,10 @@ body {
     text-align: center;
 }
 
+.meal {
+    text-align: left;
+}
+
 .logo {
     border: none;
     width: 100;
@@ -14,11 +18,13 @@ body {
 }
 
 .main {
-    width: 500px;
-    height: 500px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
     border: 1px solid ;
     border-radius: 10px;
     vertical-align: middle;
+    position: relative;
 }
 
 #menu {
@@ -29,6 +35,7 @@ body {
     border: 1px solid;
     border-radius: 10px;
     padding: 10;
+    text-align: center;
 }
 
 #menu a {
