@@ -6,6 +6,7 @@ body {
     background-color: #f0ecdd;
     text-align: center;
     font-family: 'lato', sans-serif;
+    font-size: 18;
 }
 
 footer {
@@ -39,7 +40,7 @@ li img {
 
 #menu {
     text-decoration: none;
-    font-size: 20;
+    font-size: 40;
     display: inline-flex;
     font-family: 'Lato', sans-serif;
     border: 1px solid;
@@ -82,4 +83,30 @@ nav {
 .ul {
     text-align: left;
     font-family: 'lato', sans-serif;
+}
+
+.flex-container {
+    display:flex;
+}
+
+.roasted {
+    height: 220px;
+    width: 270;
+    position: relative;
+    top: 150;
+    right: 100;
+}
+
+.grilled {
+    height: 220px;
+    width: 270;
+    position: relative;
+    top: 100;
+}
+
+.greek {
+    height: 220px;
+    width: 270;
+    position: relative;
+    top: 120;
 }
